@@ -60,7 +60,7 @@ export default class Weight extends Component {
                                  </div>
                                  <div className ="GetValue"> 
                                                  <form  noValidate autoComplete="off" className = "forMain">
-                                                 <TextField value={`${l} Feet`} id="outlined-basic" label="Height in Feet"  type="number" margin= "normal"   variant="outlined" color="secondary" style={{width:"80%"}} />
+                                                 <TextField value={`${l} Feet`} id="outlined-basic" label="Height in Feet"   margin= "normal"   variant="outlined" color="secondary" style={{width:"80%"}} />
                                                   </form>
                                               
 
