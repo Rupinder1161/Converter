@@ -46,7 +46,7 @@ export default class Weight extends Component {
                      <div className="Divs">
                                   <div className="EnterValue">
                                                  <form  noValidate autoComplete="off" className = "forMain">
-                                                 <TextField id="outlined-basic" label="Enter Height in Cm"  type="month" margin= "normal"  value={this.state.HeightInCm} onChange={this.getValue} variant="outlined" color="secondary" style={{width:"80%"}} />
+                                                 <TextField id="outlined-basic" label="Enter Height in Cm"  type="Number" margin= "normal"  value={this.state.HeightInCm} onChange={this.getValue} variant="outlined" color="secondary" style={{width:"80%"}} />
                                                   </form>
                                                         
                                                    
@@ -60,7 +60,7 @@ export default class Weight extends Component {
                                  </div>
                                  <div className ="GetValue"> 
                                                  <form  noValidate autoComplete="off" className = "forMain">
-                                                 <TextField value={`${l} Feet`} id="outlined-basic" label="Height in Feet"  type="month" margin= "normal"   variant="outlined" color="secondary" style={{width:"80%"}} />
+                                                 <TextField value={`${l} Feet`} id="outlined-basic" label="Height in Feet"  type="number" margin= "normal"   variant="outlined" color="secondary" style={{width:"80%"}} />
                                                   </form>
                                               
 
