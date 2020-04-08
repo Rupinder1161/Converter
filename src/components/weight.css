@@ -1,9 +1,78 @@
 .MainDiv{
 width:100%;
-height:80vh;
-background-color: rgba(100,100,100,0.7);
+/* height:100vh; */
+background-color: white;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
 }
 .CenterDiv{
     width: 80%;
+    margin: 20vh;
+    border: 1px solid rgb(68, 68, 69);
+    /* background-color:coral; */
+    /* background-image:linear-gradient(245deg, rgb(188, 188, 198) 0%, rgb(190, 150, 228) 47%, rgba(38,51,212,1) 100%); */
+    box-shadow: 2px 5px 40px 2px rgb(41, 36, 36);
+}
+.Divs{
+    width: 100%;
+    height: 100%;
+    /* background-color:black; */
+    display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+align-items: center;
+}
+.EnterValue{
+    width:400px;
+    height:400px;
+    margin-right: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.GetValue{
+    width:400px;
+    height: 400px;
+    /* background-color: rgb(171, 171, 171); */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.ValueSize{
+    width:80%;
+    /* height: 400px; */
+    background-color: red;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+
+}
+.SignValue{
+    width:100px;
+    /* background-color: rgb(171, 171, 171); */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+
+}
+
+.forMain{
+    display: flex;
+    /* color:white; */
+    width:100%;
     
+    align-items: center;
+    /* margin: 40px 10px 20px 10px; */
+    flex-flow: row wrap;
+    justify-content: center;
 }
