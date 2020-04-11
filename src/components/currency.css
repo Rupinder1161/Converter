@@ -1,0 +1,54 @@
+.Converter {
+    width: 100%;
+    padding: 0 15%;
+    box-sizing: border-box;
+    text-align: center;
+  }.Form {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }.Form input,
+  select {
+    padding: 5px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(119, 119, 119, 0.5);
+  }.Form button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgb(11, 170, 59);
+    color: white;
+    border: none;
+  }.Converter h3 {
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 30px;
+  }.Converter h2 span {
+    color: rgb(11, 170, 59);
+  }
+
+  .CenterDiv{
+    width: 80%;
+   
+    border: 1px solid rgb(68, 68, 69);
+    border-radius: 10px;
+    /* color: white; */
+    /* background-color:coral; */
+    /* background-image:linear-gradient(245deg, rgb(188, 188, 198) 0%, rgb(190, 150, 228) 47%, rgba(38,51,212,1) 100%); */
+    box-shadow: 2px 5px 40px 2px rgb(41, 36, 36);
+    /* background-image:linear-gradient(to right, #f12711, #b68c32);; */
+}
+.MainDiv{
+    width:100%;
+    /* height:100vh; */
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+      /* background-image:linear-gradient(to right, #f12711, #b68c32);; */
+    }
